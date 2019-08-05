@@ -16,7 +16,7 @@ class AddLink extends React.Component {
                     console.log(err.error);
                     this.setState({ error: err.error })
                 } else {
-                    this.setState({ url: '' , error: ''});
+                    this.setState({ url: '' , error: '', isOpen: false});
                 }
         }); 
     }
